@@ -1,0 +1,17 @@
+# Rust build artifacts
+target/
+Cargo.lock.bak
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Enclave build output (too large for GitHub; use Git LFS or release assets instead)
+*.eif
+
+# Editor/OS junk
+.DS_Store
+.vscode/
+.idea/
+*.swp
